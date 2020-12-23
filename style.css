@@ -310,7 +310,7 @@ footer.intro-footer .wrapped .footer-bottom div span a
     }
     .nav-bar .nav-menu
     {
-        position: absolute;
+        position: fixed;
         width: 100vw;
         top: 0;
         z-index: 1111;
