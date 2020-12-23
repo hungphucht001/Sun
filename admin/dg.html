@@ -1,0 +1,788 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hl - Admin</title>
+    <link rel="stylesheet" href="../assets/css/swiper.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../s.css">
+    <link rel="icon" href="../assets/imgs/icon.png">
+</head>
+<body id="heart">
+    <div class="wrap-admin">
+        <header class="header" id="header">
+            <div class="heart inner-header">
+                <div class="site-logo">
+                    <div class="inner-logo center">
+                        <a href="index.html" title="Hl">
+                            <span>
+                                <svg version="1.1" width =40 height =40 viewBox="0 0 580.32 427.2" >
+                                    <style type="text/css">
+                                        .lg5{fill:#000;}
+                                        .lg10{fill:none;}
+                                        .lg11{font-family:'MyriadPro-Regular';}
+                                        .lg12{font-size:2px;}
+                                        .lg13{fill:url(#SVGID_10_);}
+                                        .lg14{fill:url(#SVGID_11_);}
+                                    </style>
+                                    <rect x="150.36" y="203.16" class="lg10" width="55.92" height="25.92"/>
+                                    <text transform="matrix(1 0 0 1 150.3603 204.58)"><tspan x="0" y="0" class="lg11 lg12">Hùng Trần</tspan><tspan x="0" y="2.4" class="lg11 lg12">Ngọc Lan</tspan></text>
+                                    <polygon class="lg5" points="58.59,13.8 58.59,179.88 36.27,179.88 14.91,254.28 58.59,254.28 58.59,420.12 132.75,420.12 
+                                        132.75,254.28 224.43,254.28 224.43,420.12 298.35,420.12 298.35,88.2 338.67,88.2 338.67,345.96 412.01,420.12 547.23,420.12 
+                                        569.55,345.48 412.35,345.48 412.35,13.8 298.11,13.8 224.55,87.36 224.55,179.88 132.27,179.88 132.27,13.8 "/>
+                                    <linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="298.11" y1="51" x2="351.27" y2="51">
+                                        <stop  offset="0" style="stop-color:#919191"/>
+                                        <stop  offset="1" style="stop-color:#FFFFFF"/>
+                                    </linearGradient>
+                                    <polygon class="lg13" points="298.11,13.8 298.35,88.2 351.27,13.8 "/>
+                                    <linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="412.006" y1="-2300.52" x2="465.166" y2="-2300.52" gradientTransform="matrix(1 0 0 -1 0 -1917.6)">
+                                        <stop  offset="0" style="stop-color:#A5A5A5"/>
+                                        <stop  offset="0.6661" style="stop-color:#E4E4E4"/>
+                                        <stop  offset="1" style="stop-color:#FFFFFF"/>
+                                    </linearGradient>
+                                    <polygon class="lg14" points="412.01,420.12 412.25,345.72 465.17,420.12 "/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-header px-4">
+                    <div class="inner right-center">
+                        <div class="block-search hidden-768 center-top block-menu">
+                            <span id="bar-sidebar">
+                                <i class="fas fa-bars"></i>
+                            </span>
+                            <div class="site-search ml-4">
+                                <form action="#" method="GET">
+                                    <div class="form-group">
+                                        <span id="search-ad " class="center-top">
+                                            <i class="fas fa-search"></i>
+                                        </span>
+                                        <input type="text" class="no-border no-outline" name="search" placeholder="Search">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="block-menu right-center">
+                            <ul class="sub-primary-menu center-top">
+                                <li class="item-menu-base account">
+                                    <div id="user">
+                                        <div class="user-avatar">
+                                            <img src="../assets/imgs/avatar.jpg" alt="">
+                                        </div>
+                                        <div class="user-name hidden-768">
+                                            Hùng Trần
+                                        </div>
+                                    </div>
+                                    <ul class="drop-down-child">
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link">
+                                                Dassbooost
+                                            </a>
+                                        </li>
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link">
+                                                Dassbooost
+                                            </a>
+                                        </li>
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link">
+                                                Dassbooost
+                                            </a>
+                                        </li>
+                                        <hr class="p-0 m-0">
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link log-out">
+                                                Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-menu-base account hidden-768">
+                                    <i class="fas fa-expand"></i>
+                                </li>
+                                <li class="item-menu-base account">
+                                    <i class="far fa-envelope"></i>
+                                    <ul class="drop-down-child drop-down-messages">
+                                        <li class="item-menu-child">
+                                            <h6>Messages</h6>
+                                        </li>
+                                        <hr class="p-0 m-0">
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>Hùng Trần</span>&nbsp;&nbsp;&nbsp;<span class="sending-time">. 2 giờ</span>
+                                                    <p>Lorem ipsum dolor, sit amet consectetur sum dolor, sit amet consecte adipisicing elit.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>Hùng Trần</span>&nbsp;&nbsp;&nbsp;<span class="sending-time">. 2 giờ</span>
+                                                    <p>Lorem ipsum dolor, sit amet consectetur sum dolor, sit amet consecte adipisicing elit.</p>
+                                                </div>
+                                            </a>
+                                        </li><li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>Hùng Trần</span>&nbsp;&nbsp;&nbsp;<span class="sending-time">. 2 giờ</span>
+                                                    <p>Lorem ipsum dolor, sit amet consectetur sum dolor, sit amet consecte adipisicing elit.</p>
+                                                </div>
+                                            </a>
+                                        </li><li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>Hùng Trần</span>&nbsp;&nbsp;&nbsp;<span class="sending-time">. 2 giờ</span>
+                                                    <p>Lorem ipsum dolor, sit amet consectetur sum dolor, sit amet consecte adipisicing elit.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <hr class="p-0 m-0">
+                                        <li class="item-menu-child text-center">
+                                            <h6>4 new messages</h6>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-menu-base account">
+                                    <i class="far fa-bell"></i>
+                                    <ul class="drop-down-child drop-down-notifications">
+                                        <li class="item-menu-child">
+                                            <h6>Notifications</h6>
+                                        </li>
+                                        <hr class="p-0 m-0">
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>Hùng Trần</span>
+                                                    <p>Lorem ipsum dolor, sit amet consectetur sum dolor, sit amet consecte adipisicing elit.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>Hùng Trần</span>
+                                                    <p>Lorem ipsum dolor, sit amet consectetur sum dolor, sit amet consecte adipisicing elit.</p>
+                                                </div>
+                                            </a>
+                                        </li><li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>Hùng Trần</span>
+                                                    <p>Lorem ipsum dolor, sit amet consectetur sum dolor, sit amet consecte adipisicing elit.</p>
+                                                </div>
+                                            </a>
+                                        </li><li class="item-menu-child">
+                                            <a href="#" class="nav-link d-flex">
+                                                <div class="user-avatar">
+                                                    <img src="../assets/imgs/avatar.jpg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <span>
+                                                        Settings
+                                                       </span>
+                                                    <p>Update dashboard</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <hr class="p-0 m-0">
+                                        <li class="item-menu-child text-center">
+                                            <h6>See all notifications</h6>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-menu-base hidden-768">
+                                    <i class="fas fa-align-center"></i>
+                                </li>
+                                <li id="open-menu-768" class="item-menu-base d-none visible-768">
+                                    <i class="fas fa-bars"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section-intro">
+            <div class="wrap-section d-flex">
+                <div class="side-bar">
+                    <div class="inner-side-bar">
+                        <ul class="sub-nav">
+                            <li class="nav-item nav-profile">
+                                <a href="#" class="nav-link">
+                                    <div class="nav-profile-image">
+                                        <img src="../assets/imgs/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="nav-profile-text">
+                                        <h6>Hùng Trần</h6>
+                                        <span class="governance">Boss</span>
+                                    </div>
+                                    <i class="ml-auto far fa-bookmark"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                   <span>Dassbooost</span>
+                                   <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Blog</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fas fa-blog"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý bài viết</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Thêm bài viết</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý danh mục</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Thêm danh mục</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Template website</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fas fa-wind"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý template</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Add template</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Gallery</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="far fa-image"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Image</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Abum</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Stock</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Members</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fas fa-users"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý thành viên</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Thêm thành viên</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Chỉnh sửa thành viên</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>App</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fab fa-sketch"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý app</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Thêm app</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                   <span>Messages</span>
+                                   <i class="far fa-comments"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Project </span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fas fa-tasks"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý project</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Thêm project mới</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Setting account</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fas fa-user-cog"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Edit account</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Email</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="far fa-envelope-open"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý email</a>
+                                    </li>
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Duyệt email</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Qr code</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fas fa-qrcode"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Quản lý account</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                   <span>Mission</span>
+                                   <i class="fas fa-chevron-down"></i>
+                                   <i class="fab fa-superpowers"></i>
+                                </a>
+                                <ul class="sub-nav-child">
+                                    <li class="nav-item-child">
+                                        <a href="#" class="nav-link icon-right">Manage Mission</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <button class="add-project">+ Add a Project</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block-content">
+                    <div class="site-block-content">
+                        <div class="wrap">
+                            <div class="page-header">
+                                <div class="left-right">
+                                    <h6 class="page-title icon-home">Dashboard</h6>
+                                    <span class="circle-info">Overview</span>
+                                </div>
+                            </div>
+                            <div class="statisticals my-4">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card-statistical top-flex p-5">
+                                            <div class="item-statistical mr-auto">
+                                                <span>View website</span>
+                                                <h1>456</h1>
+                                            </div>
+                                            <span>
+                                                <i class="far fa-eye"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card-statistical top-flex p-5">
+                                            <div class="item-statistical mr-auto">
+                                                <span>Number of accounts</span>
+                                                <h1>456</h1>
+                                            </div>
+                                            <span>
+                                                <i class="far fa-user-circle"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card-statistical top-flex p-5">
+                                            <div class="item-statistical mr-auto">
+                                                <span>Visitors Online</span>
+                                                <h1>456</h1>
+                                            </div>
+                                            <span>
+                                                <i class="fab fa-sketch"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="site-table">
+                                <div class="inner-table">
+                                    <div>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th class="title">Member</th>
+                                                </tr>
+                                              <tr>
+                                                <th class="title">
+                                                    <h6>Name</h6>
+                                                </th>
+                                                <th class="title">
+                                                    <h6>Position</h6>
+                                                </th>
+                                                <th class="title">
+                                                    <h6>Status</h6>
+                                                </th>
+                                                <th class="title">
+                                                    <h6>Last Update</h6>
+                                                </th>
+                                                <th class="title">
+                                                    <h6>ID</h6>
+                                                </th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>
+                                                   <div class="user center-top">
+                                                        <div class="nav-profile-image mr-2">
+                                                            <img src="../assets/imgs/avatar.jpg" alt="">
+                                                        </div>
+                                                        <div class="nav-profile-text">
+                                                            <span>Hùng Trần</span>
+                                                        </div>
+                                                   </div>
+                                                </td>
+                                                <td>
+                                                    <span>Fund is not recieved</span>
+                                                </td>
+                                                <td><span class="status">online</span></td>
+                                                <td><span>Dec 5, 2017</span></td>
+                                                <td><span>WD-12345</span></td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                   <div class="user center-top">
+                                                        <div class="nav-profile-image mr-2">
+                                                            <img src="../assets/imgs/avatar.jpg" alt="">
+                                                        </div>
+                                                        <div class="nav-profile-text">
+                                                            <span>Hùng Trần</span>
+                                                        </div>
+                                                   </div>
+                                                </td>
+                                                <td>
+                                                    <span>Fund is not recieved</span>
+                                                </td>
+                                                <td><span class="status">online</span></td>
+                                                <td><span>Dec 5, 2017</span></td>
+                                                <td><span>WD-12345</span></td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                   <div class="user center-top">
+                                                        <div class="nav-profile-image mr-2">
+                                                            <img src="../assets/imgs/avatar.jpg" alt="">
+                                                        </div>
+                                                        <div class="nav-profile-text">
+                                                            <span>Hùng Trần</span>
+                                                        </div>
+                                                   </div>
+                                                </td>
+                                                <td>
+                                                    <span>Fund is not recieved</span>
+                                                </td>
+                                                <td><span class="status">online</span></td>
+                                                <td><span>Dec 5, 2017</span></td>
+                                                <td><span>WD-12345</span></td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                   <div class="user center-top">
+                                                        <div class="nav-profile-image mr-2">
+                                                            <img src="../assets/imgs/avatar.jpg" alt="">
+                                                        </div>
+                                                        <div class="nav-profile-text">
+                                                            <span>Hùng Trần</span>
+                                                        </div>
+                                                   </div>
+                                                </td>
+                                                <td>
+                                                    <span>Fund is not recieved</span>
+                                                </td>
+                                                <td><span class="status">online</span></td>
+                                                <td><span>Dec 5, 2017</span></td>
+                                                <td><span>WD-12345</span></td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                   <div class="user center-top">
+                                                        <div class="nav-profile-image mr-2">
+                                                            <img src="../assets/imgs/avatar.jpg" alt="">
+                                                        </div>
+                                                        <div class="nav-profile-text">
+                                                            <span>Hùng Trần</span>
+                                                        </div>
+                                                   </div>
+                                                </td>
+                                                <td>
+                                                    <span>Fund is not recieved</span>
+                                                </td>
+                                                <td><span class="status">online</span></td>
+                                                <td><span>Dec 5, 2017</span></td>
+                                                <td><span>WD-12345</span></td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                   <div class="user center-top">
+                                                        <div class="nav-profile-image mr-2">
+                                                            <img src="../assets/imgs/avatar.jpg" alt="">
+                                                        </div>
+                                                        <div class="nav-profile-text">
+                                                            <span>Hùng Trần</span>
+                                                        </div>
+                                                   </div>
+                                                </td>
+                                                <td>
+                                                    <span>Fund is not recieved</span>
+                                                </td>
+                                                <td><span class="status">online</span></td>
+                                                <td><span>Dec 5, 2017</span></td>
+                                                <td><span>WD-12345</span></td>
+                                              </tr>
+
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-7 mt-4">
+                                    <div class="site-table">
+                                        <div class="inner-table">
+                                            <div>
+                                                <table class="table">
+                                                    <h5>Project Status</h5>
+                                                    <thead>
+                                                       
+                                                      <tr>
+                                                        <th class="title">
+                                                            <h6>#</h6>
+                                                        </th>
+                                                        <th class="title">
+                                                            <h6>Name</h6>
+                                                        </th>
+                                                        <th class="title">
+                                                            <h6>Due Date</h6>
+                                                        </th>
+                                                        <th class="title">
+                                                            <h6>Status</h6>
+                                                        </th>
+                                                        
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td>
+                                                            <span>1</span>
+                                                        </td>
+                                                        <td><span>Thiết kế giao diện</span></td>
+                                                        <td><span>Dec 5, 2017</span></td>
+                                                        <td><span><span class="status">Đang làm</span></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                            <span>1</span>
+                                                        </td>
+                                                        <td><span>Thiết kế giao diện</span></td>
+                                                        <td><span>Dec 5, 2017</span></td>
+                                                        <td><span><span class="status">Đang làm</span></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                            <span>1</span>
+                                                        </td>
+                                                        <td><span>Thiết kế giao diện</span></td>
+                                                        <td><span>Dec 5, 2017</span></td>
+                                                        <td><span><span class="status">Đang làm</span></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                            <span>1</span>
+                                                        </td>
+                                                        <td><span>Thiết kế giao diện</span></td>
+                                                        <td><span>Dec 5, 2017</span></td>
+                                                        <td><span><span class="status">Đang làm</span></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                            <span>1</span>
+                                                        </td>
+                                                        <td><span>Thiết kế giao diện</span></td>
+                                                        <td><span>Dec 5, 2017</span></td>
+                                                        <td><span><span class="status">Đang làm</span></span></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                            <span>1</span>
+                                                        </td>
+                                                        <td><span>Thiết kế giao diện</span></td>
+                                                        <td><span>Dec 5, 2017</span></td>
+                                                        <td><span><span class="status">Đang làm</span></span></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 mt-4">
+                                    <div class="site-tolist">
+                                        <div class="inner-tolist">
+                                            <div class="hero-form">
+                                                <form action="#">
+                                                    <div class="form-group">
+                                                        <input type="text" name="add-list" placeholder="Add to list">
+                                                        <input type="submit" value="Add">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="to-list">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                      <label>
+                                                          <input type="checkbox"  class="checkbox">
+                                                          <span>Inbox</span>
+                                                          <i class="input-check"></i>
+                                                      </label>
+                                                      <span class="badge">
+                                                          <i class="far fa-times-circle"></i>
+                                                    </span>
+                                                    </li>
+                                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                        <label>
+                                                            <input type="checkbox" class="checkbox">
+                                                            <span>Inbox</span>
+                                                            <i class="input-check"></i>
+                                                        </label>
+                                                        <span class="badge">
+                                                            <i class="far fa-times-circle"></i>
+                                                      </span>
+                                                      </li>
+                                                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                        <label>
+                                                            <input type="checkbox" class="checkbox">
+                                                            <span>Inbox</span>
+                                                            <i class="input-check"></i>
+                                                        </label>
+                                                        <span class="badge">
+                                                            <i class="far fa-times-circle"></i>
+                                                      </span>
+                                                      </li>
+                                                  </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        sấcdf
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <a href="#heart" class="up-top"><i class="fas fa-chevron-up"></i></a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            $('.item-menu-base').click(function()
+            {
+                $(".drop-down-child").hide();
+                $(this).children('.drop-down-child').toggle(50);
+            })
+            $(".nav-item").click(function(){
+                $(this).toggleClass("current");
+                $(this).children(".sub-nav-child").toggle(50);
+            })
+            $("#bar-sidebar").click(function(){
+                $(".nav-profile").toggle(50);
+                $(".nav-item").toggleClass("hover-open");
+                $(".site-logo").toggleClass("width-75");
+                $(".side-bar").toggleClass("width-75");
+                $(".side-bar").toggleClass("px-0");
+                $(".main-header").toggleClass("width-100-75");
+                $(".block-content").toggleClass("width-100-75");
+                $(".nav-item").children("a").toggleClass("justify-content-center");
+                $(".nav-item").children("a").children("i:last-child").toggleClass("m-0");
+            })
+            $("#open-menu-768").click(function(){
+                $(".side-bar").toggle(100);
+            })
+            $('input.checkbox').change(function(){
+                if ($(this).is(':checked')) {
+                    $(this).parents('li').addClass("checked");
+                }
+                else
+                {
+                    $(this).parents('li').removeClass("checked");
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>
